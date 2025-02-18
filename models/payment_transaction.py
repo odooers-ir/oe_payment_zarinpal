@@ -6,7 +6,7 @@ from werkzeug import urls
 from odoo import _, fields, models
 from odoo.exceptions import ValidationError
 
-from odoo.addons.ho_payment_zarinpal.controllers.main import ZarinpalController
+from odoo.addons.oe_payment_zarinpal.controllers.main import ZarinpalController
 
 
 _logger = logging.getLogger(__name__)

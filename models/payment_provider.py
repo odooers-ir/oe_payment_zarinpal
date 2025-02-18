@@ -7,7 +7,7 @@ import requests
 from odoo import _, fields, models
 from odoo.exceptions import ValidationError
 
-from odoo.addons.ho_payment_zarinpal import const
+from odoo.addons.oe_payment_zarinpal import const
 
 _logger = logging.getLogger(__name__)
 

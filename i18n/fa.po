@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* ho_payment_zarinpal
+# 	* oe_payment_zarinpal
 #
 msgid ""
 msgstr ""
@@ -15,55 +15,55 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: ho_payment_zarinpal
-#: model:ir.model.fields,field_description:ho_payment_zarinpal.field_payment_provider__code
+#. module: oe_payment_zarinpal
+#: model:ir.model.fields,field_description:oe_payment_zarinpal.field_payment_provider__code
 msgid "Code"
 msgstr "کد"
 
-#. module: ho_payment_zarinpal
+#. module: oe_payment_zarinpal
 #. odoo-python
-#: code:addons/ho_payment_zarinpal/models/payment_provider.py:0
-#: code:addons/ho_payment_zarinpal/models/payment_provider.py:0
+#: code:addons/oe_payment_zarinpal/models/payment_provider.py:0
+#: code:addons/oe_payment_zarinpal/models/payment_provider.py:0
 #, python-format
 msgid "Could not establish the connection to the API."
 msgstr "اتصال به API برقرار نشد."
 
-#. module: ho_payment_zarinpal
-#: model:ir.model.fields,field_description:ho_payment_zarinpal.field_payment_provider__zarinpal_merchant_id
+#. module: oe_payment_zarinpal
+#: model:ir.model.fields,field_description:oe_payment_zarinpal.field_payment_provider__zarinpal_merchant_id
 msgid "Merchant ID"
 msgstr "شناسه پذیرنده"
 
-#. module: ho_payment_zarinpal
+#. module: oe_payment_zarinpal
 #. odoo-python
-#: code:addons/ho_payment_zarinpal/models/payment_transaction.py:0
+#: code:addons/oe_payment_zarinpal/models/payment_transaction.py:0
 #, python-format
 msgid "No transaction found matching reference %s."
 msgstr "هیچ تراکنشی مطابق با مرجع %s یافت نشد."
 
-#. module: ho_payment_zarinpal
-#: model:ir.model,name:ho_payment_zarinpal.model_payment_provider
+#. module: oe_payment_zarinpal
+#: model:ir.model,name:oe_payment_zarinpal.model_payment_provider
 msgid "Payment Provider"
 msgstr "سرویس دهنده پرداخت"
 
-#. module: ho_payment_zarinpal
-#: model:ir.model,name:ho_payment_zarinpal.model_payment_transaction
+#. module: oe_payment_zarinpal
+#: model:ir.model,name:oe_payment_zarinpal.model_payment_transaction
 msgid "Payment Transaction"
 msgstr "تراکنش پرداخت"
 
-#. module: ho_payment_zarinpal
-#: model:ir.model.fields,help:ho_payment_zarinpal.field_payment_transaction__zarinpal_authority
+#. module: oe_payment_zarinpal
+#: model:ir.model.fields,help:oe_payment_zarinpal.field_payment_transaction__zarinpal_authority
 msgid "Reference of the TX as stored in the acquirer database"
 msgstr "مرجع TX همانطور که در پایگاه داده اکتسابی ذخیره شده است"
 
-#. module: ho_payment_zarinpal
-#: model:ir.model.fields,help:ho_payment_zarinpal.field_payment_provider__zarinpal_merchant_id
+#. module: oe_payment_zarinpal
+#: model:ir.model.fields,help:oe_payment_zarinpal.field_payment_provider__zarinpal_merchant_id
 msgid "The ID solely used to identify the merchant account with Zarinpal"
 msgstr "شناسه ای که صرفاً برای شناسایی حساب تجاری با زرین پال استفاده می شود"
 
-#. module: ho_payment_zarinpal
+#. module: oe_payment_zarinpal
 #. odoo-python
-#: code:addons/ho_payment_zarinpal/models/payment_provider.py:0
-#: code:addons/ho_payment_zarinpal/models/payment_provider.py:0
+#: code:addons/oe_payment_zarinpal/models/payment_provider.py:0
+#: code:addons/oe_payment_zarinpal/models/payment_provider.py:0
 #, python-format
 msgid ""
 "The communication with the API failed. SEP gave us the following "
@@ -71,47 +71,47 @@ msgid ""
 msgstr ""
 "ارتباط با API ناموفق بود. زرین پال موارد زیر را به ما داد"
 "اطلاعات: %s"
-#. module: ho_payment_zarinpal
+#. module: oe_payment_zarinpal
 #. odoo-python
-#: code:addons/ho_payment_zarinpal/models/payment_transaction.py:0
-#: code:addons/ho_payment_zarinpal/models/payment_transaction.py:0
-#: code:addons/ho_payment_zarinpal/models/payment_transaction.py:0
+#: code:addons/oe_payment_zarinpal/models/payment_transaction.py:0
+#: code:addons/oe_payment_zarinpal/models/payment_transaction.py:0
+#: code:addons/oe_payment_zarinpal/models/payment_transaction.py:0
 #, python-format
 msgid "The payment encountered an error with code %s"
 msgstr "پرداخت با کد %s با خطا مواجه شد"
 
-#. module: ho_payment_zarinpal
-#: model:ir.model.fields,help:ho_payment_zarinpal.field_payment_provider__code
+#. module: oe_payment_zarinpal
+#: model:ir.model.fields,help:oe_payment_zarinpal.field_payment_provider__code
 msgid "The technical code of this payment provider."
 msgstr "کد فنی این سرویس دهنده پرداخت"
 
-#. module: ho_payment_zarinpal
-#: model_terms:payment.provider,done_msg:ho_payment_zarinpal.payment_provider_zarinpal
+#. module: oe_payment_zarinpal
+#: model_terms:payment.provider,done_msg:oe_payment_zarinpal.payment_provider_zarinpal
 msgid "Your payment has been successfully processed."
 msgstr "پرداخت شما با موفقیت پردازش شد"
 
-#. module: ho_payment_zarinpal
-#: model:ir.model.fields.selection,name:ho_payment_zarinpal.selection__payment_provider__code__zarinpal
-#: model:payment.provider,name:ho_payment_zarinpal.payment_provider_zarinpal
+#. module: oe_payment_zarinpal
+#: model:ir.model.fields.selection,name:oe_payment_zarinpal.selection__payment_provider__code__zarinpal
+#: model:payment.provider,name:oe_payment_zarinpal.payment_provider_zarinpal
 msgid "Zarinpal"
 msgstr "زرین پال"
 
-#. module: ho_payment_zarinpal
-#: model:ir.model.fields,field_description:ho_payment_zarinpal.field_payment_transaction__zarinpal_authority
+#. module: oe_payment_zarinpal
+#: model:ir.model.fields,field_description:oe_payment_zarinpal.field_payment_transaction__zarinpal_authority
 msgid "Zarinpal Authority"
 msgstr ""
 
-#. module: ho_payment_zarinpal
-#: model_terms:payment.provider,auth_msg:ho_payment_zarinpal.payment_provider_zarinpal
+#. module: oe_payment_zarinpal
+#: model_terms:payment.provider,auth_msg:oe_payment_zarinpal.payment_provider_zarinpal
 msgid "این پرداخت مجاز است."
 msgstr ""
 
-#. module: ho_payment_zarinpal
-#: model_terms:payment.provider,pending_msg:ho_payment_zarinpal.payment_provider_zarinpal
+#. module: oe_payment_zarinpal
+#: model_terms:payment.provider,pending_msg:oe_payment_zarinpal.payment_provider_zarinpal
 msgid "پرداخت شما با موفقیت انجام شد اما در انتظار تایید است."
 msgstr ""
 
-#. module: ho_payment_zarinpal
-#: model_terms:payment.provider,cancel_msg:ho_payment_zarinpal.payment_provider_zarinpal
+#. module: oe_payment_zarinpal
+#: model_terms:payment.provider,cancel_msg:oe_payment_zarinpal.payment_provider_zarinpal
 msgid "پرداخت شما لغو شده است."
 msgstr ""
