@@ -47,7 +47,7 @@ class PaymentTransaction(models.Model):
             'description': self.partner_name,
             'callback_url': urls.url_join(base_url, ZarinpalController._callback_url),
             'api_url': urls.url_join(base_url, ZarinpalController._authority_url),
-            'order_id': self.reference,
+            'metadata': {'order_id': self.reference,}
         }
 
     def _get_tx_from_notification_data(self, provider_code, notification_data):
